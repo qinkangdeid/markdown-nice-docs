@@ -14,7 +14,7 @@
   - markdown-nice-api 后台开发
   - 官网中主题页开发
   - 前后台对接
-  - 创建建社区官网
+- 创建社区官网
   - 主页动画
   - markdown-resume 介绍
   - markdown-nice 介绍

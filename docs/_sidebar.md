@@ -1,6 +1,6 @@
 - mdnice 社区现阶段工作
 
-- [维护 markdown-nice](../README.md)
+- 维护 markdown-nice
   - 维护新增主题
   - 快捷键 pr
   - 基础样式 pr

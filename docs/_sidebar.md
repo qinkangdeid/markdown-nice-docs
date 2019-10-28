@@ -1,9 +1,9 @@
 - markdown-nice 开发文档
-  - markdown-nice 如何开发
-  - 架构图和发展路线
-  - 阿里云图床搭建
-  - 七牛云图床搭建
+  - [markdown-nice如何开发](markdown-nice如何开发.md)
+  - [架构图和发展路线](架构图和发展路线.md)
+  - [阿里云图床搭建](阿里云图床搭建.md)
+  - [七牛云图床搭建](七牛云图床搭建.md)
   - 七牛云图床域名和 https 的添加
   - svg 在 markdown-nice 的使用方式
   - 如何开发自定义主题？
-- [TODO](./todo.md)
+- [TODO](todo.md)

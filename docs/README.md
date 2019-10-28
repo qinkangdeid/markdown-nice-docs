@@ -1,3 +1,3 @@
 ![logo](https://my-wechat.mdnice.com/mdnice/mdnice%20logo_20191007150129.png)
-# markdown-nice-docs
+# Markdown Nice Docs
 The official docs for markdown-nice

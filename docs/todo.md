@@ -1,4 +1,4 @@
-<!-- - 维护 markdown-nice
+- 维护 markdown-nice
   - 维护新增主题
   - 快捷键 pr
   - 基础样式 pr
@@ -18,4 +18,4 @@
   - 主页动画
   - markdown-resume 介绍
   - markdown-nice 介绍
-  - 主题管理页 -->
+  - 主题管理页

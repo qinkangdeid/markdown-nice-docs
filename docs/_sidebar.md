@@ -6,4 +6,6 @@
   - 七牛云图床域名和 https 的添加
   - svg 在 markdown-nice 的使用方式
   - 如何开发自定义主题？
+  - 公式编写注意点
+  - markdown 编写注意点
 - [TODO](todo.md)

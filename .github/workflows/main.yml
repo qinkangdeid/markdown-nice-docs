@@ -13,4 +13,6 @@ jobs:
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
-        script: cd /home/mdnice/markdown-nice-docs & git pull origin master
+        script: |
+          cd /home/mdnice/markdown-nice-docs
+          git pull origin master

@@ -1,5 +1,6 @@
 - markdown-nice 开发文档
   - [markdown-nice如何开发](markdown-nice如何开发.md)
+  - [markdown-nice使用文档](markdown-nice使用文档.md)
   - [架构图和发展路线](架构图和发展路线.md)
   - [阿里云图床搭建](阿里云图床搭建.md)
   - [七牛云图床搭建](七牛云图床搭建.md)

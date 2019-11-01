@@ -1,4 +1,7 @@
+[中文版](./README.zh-CN.md)
+
 ## Markdown Nice Docs
+
 The markdown-nice official docs for developer👩‍💻 and user🙍‍
 
 ## quick navigation🔖
@@ -13,5 +16,3 @@ The markdown-nice official docs for developer👩‍💻 and user🙍‍
 $ npm i docsify-cli -g 
 $ docsify serve docs
 ```
-
-[中文版](./README.zh-CN.md)

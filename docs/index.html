@@ -1,27 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Markdown Nice Docs</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="Description">
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/buble.css">
-</head>
-<body>
-  <div id="app">
-    loading...
-  </div>
-  <script>
-    window.$docsify = {
-      name: 'Markdown Nice Docs',
-      repo: 'https://github.com/mdnice/markdown-nice-docs',
-      loadSidebar: true,
-      mergeNavbar: true,
-    }
-  </script>
-   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
-  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
-  <script src="//unpkg.com/docsify-copy-code"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Markdown Nice Docs</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="Description" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css" />
+    <style>
+      .sidebar {
+        padding: 0px;
+      }
+      .sidebar > h1 {
+        text-align: left;
+        margin-left: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      loading...
+    </div>
+    <script>
+      window.$docsify = {
+        name: "Markdown Nice 文档",
+        repo: "https://github.com/mdnice/markdown-nice-docs",
+        loadSidebar: true,
+        mergeNavbar: true,
+        maxLevel: 4,
+        subMaxLevel: 2,
+      };
+    </script>
+
+    <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+    <script src="//unpkg.com/docsify/lib/plugins/zoom-image.js"></script>
+    <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+    <script src="//unpkg.com/docsify-copy-code"></script>
+
+  </body>
 </html>

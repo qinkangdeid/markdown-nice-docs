@@ -1,14 +1,18 @@
-- markdown-nice 开发文档
-  - [markdown-nice如何开发](markdown-nice如何开发.md)
-  - [markdown-nice使用文档](markdown-nice使用文档.md)
-  - [架构图和发展路线](架构图和发展路线.md)
+- 用户文档
+
   - [阿里云图床搭建](阿里云图床搭建.md)
   - [七牛云图床搭建](七牛云图床搭建.md)
+  - [公式编写注意点](公式编写注意点.md)
+  - [编辑器快捷键](编辑器快捷键.md)
   - 七牛云图床域名和 https 的添加
   - svg 在 markdown-nice 的使用方式
   - 如何开发自定义主题？
   - markdown 编写注意点
-  - [服务器搭建](服务器搭建.md)
-  - [公式编写注意点](公式编写注意点.md)
-  - [编辑器快捷键](编辑器快捷键.md)
-- [TODO](todo.md)
+
+- 开发者文档
+
+  - [开始开发](markdown-nice如何开发.md)
+  - [组件使用](markdown-nice使用文档.md)
+  - [架构图和发展路线](架构图和发展路线.md)
+  - [服务器搭建](服务器搭建.md)  
+  - [TODO](todo.md)

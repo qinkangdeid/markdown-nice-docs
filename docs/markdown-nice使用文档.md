@@ -1,0 +1,58 @@
+## 安装
+
+目前仅支持 React
+
+```shell
+$ yarn add markdown-nice
+```
+
+或者
+
+```shell
+$ npm install markdown-nice --save
+```
+
+## 愉快使用
+
+```jsx
+import React from "react";
+import MarkdownNice from "markdown-nice";
+
+// 编辑器默认的内容
+const defaultText = `编辑器默认的内容`;
+// 标题，是一个字符串
+const defaultTitle = "Markdown Nice";
+
+function App() {
+  return (
+    <MarkdownNice
+      defaultTitle={defaultTitle}
+      defaultText={defaultText}
+      onTextChange={t => console.log("text => ", t)}
+    />
+  );
+}
+
+export default App;
+```
+
+其中 defaultTitle 属性不添加则左上角不显示，defaultText 属性不添加则默认每次从 localStorage 中获取值。
+
+## ref 使用
+
+```javascript
+import React from "react";
+import MarkdownNice from "markdown-nice";
+
+function App() {
+  return (
+    <MarkdownNice
+      ref={mdnice => {
+        mdnice.getHtml(); // 获取当前可用的富文本
+      }}
+    />
+  );
+}
+
+export default App;
+```

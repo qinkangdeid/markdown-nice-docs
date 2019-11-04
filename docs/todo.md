@@ -19,3 +19,8 @@
   - markdown-resume 介绍
   - markdown-nice 介绍
   - 主题管理页
+- markdown-nice-api 后台开发
+  - 用户开发
+  - 主题管理开发
+  - 编辑内容保存开发
+  - 图床信息存储开发

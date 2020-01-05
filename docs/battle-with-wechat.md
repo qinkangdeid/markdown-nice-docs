@@ -18,7 +18,7 @@ Markdown 是一种排版语法，拥有极简的输入方式和极低的学习�
 
 > 拥有它，让人专注于内容本身，而不被格式所打扰。
 
-![](https://draw-wechat.oss-cn-hangzhou.aliyuncs.com/%E8%AF%B7%E5%8B%BF%E6%89%93%E6%89%B0_20190923093136.gif)
+![](./_media/battle-with-wechat/请勿打扰_20190923093136.gif)
 
 ### 怎么和微信公众号结合？
 
@@ -34,7 +34,7 @@ Markdown 是一种排版语法，拥有极简的输入方式和极低的学习�
 
 **当然不是！Nice宝宝你还有什么特性呀？** 
 
-![](https://draw-wechat.oss-cn-hangzhou.aliyuncs.com/%E4%B9%96%E5%B7%A7_20190923093136.png)
+![](./_media/battle-with-wechat/乖巧_20190923093136.png)
 
 - 支持图床、脚注、代码、公式
 - 支持 8 种排版主题和 7 种代码主题
@@ -42,7 +42,7 @@ Markdown 是一种排版语法，拥有极简的输入方式和极低的学习�
 - 除了公众号外，还支持知乎、掘金、博客园和CSDN等平台
 - **我颜值高呀**
 
-![完整界面](https://draw-wechat.oss-cn-hangzhou.aliyuncs.com/%E5%AE%8C%E6%95%B4%E9%A1%B5%E9%9D%A2_20190923093136.png)
+![完整界面](./_media/battle-with-wechat/完整页面_20190923093136.png)
 
 这么多优秀的特性摆在你面前，还在等什么？
 
@@ -58,7 +58,7 @@ Markdown 是一种排版语法，拥有极简的输入方式和极低的学习�
 
 不要小看Nice宝宝我，为了能够使用 Markdown 进行公众号排版，我可是和微信公众号编辑器做了半年的斗争，才赢得了现在的战果！
 
-![激烈斗争](https://draw-wechat.oss-cn-hangzhou.aliyuncs.com/%E8%88%92%E6%9C%8D%E4%B8%8D_20190923093136.gif)
+![激烈斗争](./_media/battle-with-wechat/舒服不_20190923093136.gif)
 
 想听听我是如何战斗的？下面且听我娓娓道来！
 
@@ -66,7 +66,7 @@ Markdown 是一种排版语法，拥有极简的输入方式和极低的学习�
 
 微信公众号编辑器源于百度 FEX 前端团队的开源的 [ueditor](http://ueditor.baidu.com "ueditor") 项目，这可是宝宝我扒取了网页代码发现的，如图所示：
 
-![浏览器检查元素](https://draw-wechat.oss-cn-hangzhou.aliyuncs.com/ueditor_20190923093136.png)
+![浏览器检查元素](./_media/battle-with-wechat/ueditor_20190923093136.png)
 
 因为 ueditor 是富文本编辑器，所以我即将面临的是 `markdown->富文本` 的转换战役，在开源界或者软件界这种转换战役有了相当多的优秀实现。比如：
 
@@ -98,7 +98,7 @@ Markdown Nice 是一个开源项目，由很多开源技术合体而成，其中
 
 在拥有上述技术傍身之后，我向微信编辑器宣战，打响了战斗第一枪！
 
-![](https://draw-wechat.oss-cn-hangzhou.aliyuncs.com/%E6%9D%A5%E5%90%A7_20190923093136.gif)
+![](./_media/battle-with-wechat/来吧_20190923093136.gif)
 
 ### 战斗第一枪：代码主题
 
@@ -106,7 +106,7 @@ Markdown Nice 是一个开源项目，由很多开源技术合体而成，其中
 
 > 说来很气，微信公众号编辑器的开发者，就木有想过**代码块对程序员群体是多么重要么**？？
 
-![](https://draw-wechat.oss-cn-hangzhou.aliyuncs.com/%E9%97%AE%E5%8F%B7_20190923093136.jpeg)
+![](./_media/battle-with-wechat/问号_20190923093136.jpeg)
 
 为此我找来了`highlight.js`代码高亮神器，帮助解决代码主题单一的问题。
 
@@ -114,9 +114,9 @@ Markdown Nice 是一个开源项目，由很多开源技术合体而成，其中
 
 其中微信代码主题由于其不属于`highlight.js`的归属范畴，故而其结构需要从微信公众号编辑器源码中获取，下面两张图展示了如何获取：
 
-![获取iframe的id](https://draw-wechat.oss-cn-hangzhou.aliyuncs.com/%E8%8E%B7%E5%8F%96iframe%E7%9A%84id_20190923093136.png)
+![获取iframe的id](./_media/battle-with-wechat/获取iframe的id_20190923093136.png)
 
-![微信代码块源码](https://draw-wechat.oss-cn-hangzhou.aliyuncs.com/%E5%BE%AE%E4%BF%A1%E4%BB%A3%E7%A0%81%E6%BA%90%E7%A0%81_20190923093136.png)
+![微信代码块源码](./_media/battle-with-wechat/微信代码源码_20190923093136.png)
 
 而 `highlight.js` 与 `markdown-it` 解析器是关联使用的，故而工具中存在 2 个 markdown 解析器，分别用于解析微信代码主题和其他代码主题，[源码参考](https://github.com/zhning12/markdown-nice/blob/master/src/utils/helper.js#L55-L133 "源码参考")。
 
@@ -132,7 +132,7 @@ pre code {
 
 对比效果如图所示：
 
-![代码换行和不换行对比](https://draw-wechat.oss-cn-hangzhou.aliyuncs.com/%E4%BB%A3%E7%A0%81%E6%8D%A2%E8%A1%8C%E5%92%8C%E4%B8%8D%E6%8D%A2%E8%A1%8C%E5%AF%B9%E6%AF%94_20190923093136.jpg)
+![代码换行和不换行对比](./_media/battle-with-wechat/代码换行和不换行对比_20190923093136.jpg)
 
 从此以后使用 Markdown Nice 的同志们代码更美观啦！
 
@@ -142,7 +142,7 @@ pre code {
 
 （某些技术人员说：我的就没有）
 
-![](https://draw-wechat.oss-cn-hangzhou.aliyuncs.com/%E5%9C%A8%E4%B8%8B%E8%BE%93%E4%BA%86_20190923093136.gif)
+![](./_media/battle-with-wechat/在下输了_20190923093136.gif)
 
 > 图片管理是每一个成熟编辑器都会遇到的问题。
 
@@ -150,7 +150,7 @@ Nice宝宝最开始使用 [SM.MS](https://sm.ms/ "SM.MS") 图床，该图床由�
 
 使用该图床虽然能够上传图片，但是粘贴到微信编辑器时，失败率极高（**想踩死微信编辑器**），如图所示：
 
-![图片上传失败](https://draw-wechat.oss-cn-hangzhou.aliyuncs.com/%E5%9B%BE%E7%89%87%E4%B8%8A%E4%BC%A0%E5%A4%B1%E8%B4%A5_20190923093136.png)
+![图片上传失败](./_media/battle-with-wechat/图片上传失败_20190923093136.png)
 
 真是{喜闻乐见|hē hē hē hē}呀！
 
@@ -158,7 +158,7 @@ Nice宝宝最开始使用 [SM.MS](https://sm.ms/ "SM.MS") 图床，该图床由�
 
 **但是！让使用者自己配置，尽管有配置文档，但是整个配置过程复杂无比，简直惨绝人寰！**
 
-![吐血身亡](https://draw-wechat.oss-cn-hangzhou.aliyuncs.com/%E5%90%90%E8%A1%80%E8%BA%AB%E4%BA%A1_20190923093136.jpg)
+![吐血身亡](./_media/battle-with-wechat/吐血身亡_20190923093136.jpg)
 
 于是，Nice宝宝又使用自己的账号，自建图床，设定保存时间为一天，提供临时排版使用的 mdnice 图床。至此，工具中的图片上传支持情况如下：
 
@@ -169,7 +169,7 @@ Nice宝宝最开始使用 [SM.MS](https://sm.ms/ "SM.MS") 图床，该图床由�
 |阿里云|[参考](https://cn.aliyun.com/product/oss "参考")|自定义|低|
 |七牛云|10G免费|自定义|低|
 
-![四种图床](https://draw-wechat.oss-cn-hangzhou.aliyuncs.com/%E5%9B%9B%E7%A7%8D%E5%9B%BE%E5%BA%8A_20190923093136.png)
+![四种图床](./_media/battle-with-wechat/四种图床_20190923093136.png)
 
 这场图床的战役中，最大的难度在于需要阅读阿里云 OSS 和七牛云 KODO 的文档，并且使用其开源出来的工具包 ali-oss 和 qiniu-js 。
 
@@ -185,32 +185,13 @@ Nice宝宝最开始使用 [SM.MS](https://sm.ms/ "SM.MS") 图床，该图床由�
 
 - 不支持公式编辑
 - 不支持 html 和 css 生成的公式，因为字体无法导入
-- 不支持svg，放入后提示失败
+- 不支持带`<defs>`标签的svg，放入后提示失败
 
 > 这三件事情简直像魔鬼的步伐，把公式需求者放在光滑的地板上摩擦、摩擦....
 
-![](https://draw-wechat.oss-cn-hangzhou.aliyuncs.com/%E6%91%A9%E6%93%A6%E6%91%A9%E6%93%A6_20190923093136.jpeg)
+![](./_media/battle-with-wechat/摩擦摩擦_20190923093136.jpeg)
 
-目前唯一可行的方案就是将公式转换成图片，再将图片直接贴到公众号里，Nice宝宝觉得自己这个想法简直是完美！
-
-但是，怎么做呢......
-
-![](https://draw-wechat.oss-cn-hangzhou.aliyuncs.com/%E6%B2%89%E6%80%9D_20190923093136.jpeg)
-
-忽然灵机一动，想到了朋友曾经推荐的一个转换公式网站 [codecogs](https://www.codecogs.com/latex/eqneditor.php "codecogs")，这个网站能够做到将任意公式转换成png图片并给出可访问链接。
-
-![codecogs](https://draw-wechat.oss-cn-hangzhou.aliyuncs.com/codecogs_20190923093136.png)
-
-但是由于图片稳定性，无法直接使用该链接，会存在和第二场战役一样，图片粘贴失败的情况，让人苦不堪言。
-
-- 这个问题该怎么解决呢？**如果能够自建公式转png图片服务就好了。**
-- 有没有这样的开源库？**有！MathJax-node 就可以！**
-
-于是Nice宝宝自建后台服务，封装 RESTful 接口供前端调用，实现了公式转图片的功能！经过测试，完全可以使用，粘贴后再根据排版情况调整图片大小即可。
-
-其中对于大量公式的转换，前端合理使用了异步请求，并非一个个转换而是并行执行，**性能上达到了10个公式也能2秒转换完毕的效果**，完全可用于公式排版。
-
-![转公式](https://draw-wechat.oss-cn-hangzhou.aliyuncs.com/%E8%BD%AC%E5%85%AC%E5%BC%8F_20190923093137.gif)
+经过探索，发现微信公众号支持不带`<defs>`标签的svg，于是将使用mathjax即可完成生成公式的svg的工作
 
 ### 战斗第四枪：微信外链转脚注
 
@@ -220,7 +201,7 @@ Nice宝宝最开始使用 [SM.MS](https://sm.ms/ "SM.MS") 图床，该图床由�
 
 **而Nice宝宝则提供了将微信外链转为脚注的方式解决该问题，是不是很优雅呢？**
 
-![](https://draw-wechat.oss-cn-hangzhou.aliyuncs.com/fine_20190923093136.gif)
+![](./_media/battle-with-wechat/fine_20190923093136.gif)
 
 
 其中链接和脚注的使用区别如下：
@@ -232,11 +213,11 @@ Nice宝宝最开始使用 [SM.MS](https://sm.ms/ "SM.MS") 图床，该图床由�
 
 这里又涉及到了一个常见的问题，就是很多公众号作者的文章中，原来在其他平台发布时都是链接，而到这里排版时需要进行挨个修改，实在是让人头大。
 
-![](https://draw-wechat.oss-cn-hangzhou.aliyuncs.com/%E8%AE%A9%E4%BA%BA%E5%A4%B4%E5%A4%A7_20190923093136.jpeg)
+![](./_media/battle-with-wechat/让人头大_20190923093136.jpeg)
 
 于是Nice宝宝我又做了一个小改进，就是在粘贴文章的时候会自动监测是否存在外链，并提示作者是否一键转成脚注，这样就不必手工修改了，赞不赞！
 
-![自动转脚注](https://draw-wechat.oss-cn-hangzhou.aliyuncs.com/%E8%87%AA%E5%8A%A8%E8%BD%AC%E8%84%9A%E6%B3%A8_20190923093136.gif)
+![自动转脚注](./_media/battle-with-wechat/自动转脚注_20190923093136.gif)
 
 ### 战役总结
 
@@ -292,5 +273,4 @@ Nice宝宝最开始使用 [SM.MS](https://sm.ms/ "SM.MS") 图床，该图床由�
 
 > 最后，感谢每一位开源参与者，欢迎更多人参与到开源中来，还有好多代码等着有人来写呢！
 
-![](https://draw-wechat.oss-cn-hangzhou.aliyuncs.com/%E8%B5%B7%E6%9D%A5%E5%B9%B2%E6%B4%BB_20190923093136.gif)
-
+![](./_media/battle-with-wechat/起来干活_20190923093136.gif)

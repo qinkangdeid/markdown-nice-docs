@@ -1,10 +1,9 @@
 - 用户文档
 
-  - [基本语法](基本语法.md)
-  - [阿里云图床搭建](阿里云图床搭建.md)
-  - [七牛云图床搭建](七牛云图床搭建.md)
-  - [公式编写注意点](公式编写注意点.md)
-  - [编辑器快捷键](编辑器快捷键.md)
+  - [阿里云图床搭建](aliyun-image-hosting.md)
+  - [七牛云图床搭建](qiniu-image-hosting.md)
+  - [公式编写注意点](formula-note.md)
+  - [编辑器快捷键](hot-key.md)
   - 七牛云图床域名和 https 的添加
   - svg 在 markdown-nice 的使用方式
   - 如何开发自定义主题？
@@ -12,15 +11,15 @@
 
 - 开发者文档
 
-  - [开始开发](如何开发.md)
-  - [组件使用](组件使用.md)
-  - [架构图和发展路线](架构图和发展路线.md)
-  - [服务器搭建](服务器搭建.md)  
+  - [开始开发](start-develop.md)
+  - [组件使用](component-usage.md)
+  - [架构图和发展路线](architecture.md)
+  - [服务器搭建](server-setup.md)  
   - [TODO](todo.md)
 
 - 介绍文章
 
-  - [终于等到你，公众号排版神器](终于等到你.md)
-  - [解决了！微信公众号数学公式排版](解决了.md)
-  - [和微信公众号编辑器战斗的日子](和微信公众号编辑器战斗的日子.md)
-  - [我体验开源世界的这几年](我体验开源世界的这几年.md)
+  - [终于等到你，公众号排版神器](you-are-here.md)
+  - [解决了！微信公众号数学公式排版](wechat-formula-typesetting.md)
+  - [和微信公众号编辑器战斗的日子](battle-with-wechat.md)
+  - [我体验开源世界的这几年](experience-open-source.md)

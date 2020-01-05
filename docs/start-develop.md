@@ -15,32 +15,19 @@ $ yarn start
 
 运行后即可在浏览器中访问 `http://localhost:3000` 可看到页面
 
-## 组件对接流程
+## 组件调试
 
-组件对接需要 2 个仓库，[markdown-nice](https://github.com/mdnice/markdown-nice)和新项目（以[markdown-nice-editor](https://github.com/mdnice/markdown-nice-editor)为例）
-
-
-1、在 `markdown-nice` 下安装依赖包、提供组件链接和监听
-  
-```shell
-$ yarn
-$ yarn link
-$ yarn watch
-```
-
-执行后将会自动监听 `src` 目录下的文件变动，自动将新代码编译到 `lib` 目录
-
-2、在 `markdown-nice-editor` 下安装依赖包、进行组件链接和启动
+目前使用 storybook 做组件调试
 
 ```shell
-$ yarn
-$ yarn link markdown-nice`
-$ yarn start
+$ yarn storybook
 ```
-
-运行后即可在浏览器中访问`http://localhost:3000`看到页面了
 
 ## 组件发布
+
+- 修改 CHANGELOG.md
+- 修改 package.json 中的 version 字段
+- 修改 constant.js 中的版本信息
 
 ```shell
 $ yarn publish:npm

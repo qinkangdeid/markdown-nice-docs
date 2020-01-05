@@ -4,7 +4,7 @@
 
 虽然本科读了4年软件工程，但是我真正接触开源世界是从研一开始的，而在开源世界中积极参与并有所输出，也就是1年前研三的时候。
 
-![](https://i.loli.net/2019/08/19/s8FzHcAqmY3xPSn.png)
+![](./_media/experience-open-source/体验.png)
 
 尽管我体验开源世界的日子并不长，但是依然想介绍一下我融入开源、做开源项目的过程。因为我猜测有很多同学和当年的我一样有以下特点：
 
@@ -27,7 +27,7 @@
 
 加入协会之后，大概了解了当时在做的开源镜像站是什么，开源软件都有什么，知道了GitHub的存在。
 
-![中科院开源软件协会](https://i.loli.net/2019/08/19/MITNGtE4HSWh8bU.png)
+![中科院开源软件协会](./_media/experience-open-source/opencas.png)
 
 后来研二我又继续留了下来，作为负责人之一，尝试着做开源项目，**我的第一次尝试是刷算法题**，当时建了一个QQ群叫做中科院开源软件自习室，每天都以作业的形式发一道算法题和题解，群里一度有500多人，当时主要的目的就是希望督促自己刷题为找工作做准备，另外也号召了一些研一的学弟学妹一起做事情。
 
@@ -39,7 +39,7 @@
 
 **首先要感谢乐神**，尽管[码蜂社](https://www.mafengshe.com/ "码蜂社官网")的工作我做的很少，但是官网开发是我参与的第一个有协作相关的项目，正式开启了我的GitHub之旅。
 
-![码蜂社官网](https://i.loli.net/2019/08/19/CJkyPoVHwZ6xLFX.png)
+![码蜂社官网](./_media/experience-open-source/mafengshe.png)
 
 在整个过程中熟悉了JavaScript的使用，更多的接触了前端开发并对之产生兴趣。后续就开始接触了更多的开源工具：
 
@@ -63,7 +63,7 @@
 - **相关技术**：Node.js
 - **Star**：447
 
-![书单推荐](https://i.loli.net/2019/08/18/Poe2i94zwgxMhXd.png)
+![书单推荐](./_media/experience-open-source/awesome-books.png)
 
 ### [2. markdown-nice](https://github.com/zhning12/markdown-nice "微信Markdown排版工具")
 
@@ -72,7 +72,7 @@
 - **相关技术**：React
 - **Star**：119
 
-![微信Markdown排版工具](https://i.loli.net/2019/08/18/LcbV785vgZErpfa.png)
+![微信Markdown排版工具](./_media/experience-open-source/markdown-nice.png)
 
 ### [3. markdown-resume](https://github.com/guanpengchn/markdown-resume "Markdown简历工具")
 
@@ -81,7 +81,7 @@
 - **相关技术**：React
 - **Star**：91
 
-![Markdown简历工具](https://i.loli.net/2019/08/18/XIfz3k8liraZmgQ.png)
+![Markdown简历工具](./_media/experience-open-source/markdown-resume.png)
 
 ### [4. java-concurrent-programming](https://github.com/guanpengchn/java-concurrent-programming "Java高并发笔记")
 
@@ -90,7 +90,7 @@
 - **相关技术**：Java
 - **Star**：63
 
-![Java高并发笔记](https://i.loli.net/2019/08/18/BcVj29OvsEZ4kzl.png)
+![Java高并发笔记](./_media/experience-open-source/java-notes.png)
 
 ### [5. LeetCodeDrawing](https://github.com/guanpengchn/LeetCodeDrawing "画解算法合集")
 
@@ -99,7 +99,7 @@
 - **相关技术**：VuePress
 - **Star**：42
 
-![画解算法合集](https://i.loli.net/2019/08/18/dbWxfrgjyZwXIHU.png)
+![画解算法合集](./_media/experience-open-source/leetcode-drawing.png)
 
 ### [6. awesome-pronunciation](https://github.com/guanpengchn/awesome-pronunciation "计算机词汇发音")
 
@@ -108,7 +108,7 @@
 - **相关技术**：Vue.js
 - **Star**：34
 
-![计算机词汇发音](https://i.loli.net/2019/08/18/XCinPbrkHBxlpoY.png)
+![计算机词汇发音](./_media/experience-open-source/awesome-pronunciation.png)
 
 ### [7. interviews](https://github.com/guanpengchn/interviews "面试经历")
 
@@ -117,7 +117,7 @@
 - **相关技术**：Markdown
 - **Star**：20
 
-![面试经历](https://i.loli.net/2019/08/18/6Yh75MjomsCFLOA.png)
+![面试经历](./_media/experience-open-source/interviews.png)
 
 ### [8. github-annual-report](https://github.com/guanpengchn/github-annual-report "GitHub代码报告")
 
@@ -135,7 +135,7 @@
 - **相关技术**：Vue.js
 - **Star**：11
 
-![博客主题](https://i.loli.net/2019/08/18/RmMEsU7v1YjxQFW.png)
+![博客主题](./_media/experience-open-source/github-page.png)
 
 ### [10. reading-list](https://github.com/guanpengchn/reading-list "读书记录")
 
@@ -144,14 +144,10 @@
 - **相关技术**：Markdown
 - **Star**：1
 
-![读书记录](https://i.loli.net/2019/08/18/GXv9SR2aHLJ6cko.png)
+![读书记录](./_media/experience-open-source/reading-list.png)
 
 ## 总结
 
 不知不觉3年的研究生时光过去了，已经入职工作了1个月有余，回想自己的开源世界经历，本质是督促自己前进、学会宣传自我的过程。
 
 最后送给大家一句话：**参与开源，学会分享，乐在其中**。
-
-<span style="display:block;text-align:center;">觉得文章直击灵魂，欢迎点击<strong>在看</strong>和<strong>转发</strong></span>
-
-![](http://draw-wechat.oss-cn-hangzhou.aliyuncs.com/%E4%BA%8C%E7%BB%B4%E7%A0%81_20190823124950.gif)

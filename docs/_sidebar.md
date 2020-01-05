@@ -13,8 +13,9 @@
 
   - [开始开发](start-develop.md)
   - [组件使用](component-usage.md)
+  - [组件和网站发布](publish.md)
   - [架构图和发展路线](architecture.md)
-  - [服务器搭建](server-setup.md)  
+  - [服务器搭建](server-setup.md)
   - [TODO](todo.md)
 
 - 介绍文章

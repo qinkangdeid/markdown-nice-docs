@@ -23,37 +23,6 @@ $ yarn start
 $ yarn storybook
 ```
 
-## 组件发布
-
-- 修改 CHANGELOG.md
-- 修改 package.json 中的 version 字段
-- 修改 constant.js 中的版本信息
-
-```shell
-$ yarn publish:npm
-$ npm publish
-```
-
-## 其他
-
-取消组件链接
-
-```shell
-$ yarn unlink markdown-nice
-```
-
-添加依赖包
-
-```shell
-$ yarn add markdown-nice
-```
-
-更新依赖包
-
-```shell
-$ yarn upgrade markdown-nice
-```
-
 ## 主要开发库
 
 - [React](https://github.com/facebook/react "React")：facebook 开源的 js 视图层框架

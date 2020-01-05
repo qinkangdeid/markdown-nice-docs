@@ -12,6 +12,14 @@ $ yarn add markdown-nice
 $ npm install markdown-nice --save
 ```
 
+若 npm install 过慢，建议使用 yarn 作为包管理工具。
+
+其中的 mathjax 包下载速度可能比较慢，如果不需要公式支持，可以在 package.json 中删除 mathjax 部分
+
+```shell
+$ yarn remove mathjax
+```
+
 ## 愉快使用
 
 ```javascript
@@ -23,12 +31,19 @@ const defaultText = `编辑器默认的内容`;
 // 标题，是一个字符串
 const defaultTitle = "Markdown Nice";
 
+// 自定义图床参数
+const useImageHosting = {
+  name: "自定义图床名称",
+  url: "自定义图床URL"
+};
+
 function App() {
   return (
     <MarkdownNice
       defaultTitle={defaultTitle}
       defaultText={defaultText}
       onTextChange={t => console.log("text => ", t)}
+      useImageHosting={useImageHosting}
     />
   );
 }
@@ -57,3 +72,7 @@ function App() {
 
 export default App;
 ```
+
+## Vue(临时)
+
+当前组件没有正式支持 Vue，可以参考[这里](https://github.com/ElyhG/vuera)来在 Vue 中引入组件

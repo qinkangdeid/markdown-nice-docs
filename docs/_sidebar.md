@@ -13,6 +13,7 @@
 
   - [开始开发](start-develop.md)
   - [组件使用](component-usage.md)
+  - [自定义图床接口](custom-image-hosting.md)
   - [组件和网站发布](publish.md)
   - [架构图和发展路线](architecture.md)
   - [服务器搭建](server-setup.md)

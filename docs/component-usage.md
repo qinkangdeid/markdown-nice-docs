@@ -1,7 +1,5 @@
 ## 安装
 
-目前仅支持 React
-
 ```shell
 $ yarn add markdown-nice
 ```
@@ -20,7 +18,7 @@ $ npm install markdown-nice --save
 $ yarn remove mathjax
 ```
 
-## 愉快使用
+## React 示例
 
 ```javascript
 import React from "react";
@@ -35,6 +33,9 @@ const defaultTitle = "Markdown Nice";
 const useImageHosting = {
   name: "自定义图床名称",
   url: "自定义图床URL"
+  isSmmsOpen: true,
+  isQiniuyunOpen: true,
+  isAliyunOpen: true,
 };
 
 function App() {
@@ -53,7 +54,7 @@ export default App;
 
 其中 defaultTitle 属性不添加则左上角不显示，defaultText 属性不添加则默认每次从 localStorage 中获取值。
 
-## ref 使用
+## React ref 使用示例
 
 ```javascript
 import React from "react";
@@ -73,6 +74,43 @@ function App() {
 export default App;
 ```
 
-## Vue(临时)
+## Vue 使用示例
 
 当前组件没有正式支持 Vue，可以参考[这里](https://github.com/ElyhG/vuera)来在 Vue 中引入组件
+
+## API
+
+|属性|说明|类型|默认值|
+|---|---|---|---|
+|defaultTitle|默认标题|string|-|
+|defaultText|编辑器默认文字|string|-|
+|onTextChange|编辑器文字变化的回调|function(text)|-|
+|useImageHosting|图床配置|object|见下方|
+
+### useImageHosting
+
+类型
+
+```
+useImageHosting: {
+  url: string;
+  name: string;
+  isSmmsOpen: boolean;
+  isQiniuyunOpen: boolean;
+  isAliyunOpen: boolean;
+}
+```
+
+默认值
+
+```
+useImageHosting: {
+  url: "",
+  name: "",
+  isSmmsOpen: true,
+  isQiniuyunOpen: true,
+  isAliyunOpen: true,
+}
+```
+
+其中自定义图床 url 请参考[自定义图床接口](https://docs.mdnice.com/#/custom-image-hosting)

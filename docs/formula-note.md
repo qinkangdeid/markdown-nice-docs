@@ -10,6 +10,12 @@ $\def\angld#1{\overline{#1\,}\kern-3mu\lower-1mu\small|}$
 $$\angld{x}$$ 高度低的使用
 $$\angln{x2323}$$ 高度正常的使用
 ```
-4. 公式支持公众号和知乎。
+5. 公式支持公众号和知乎。
 
-6.  公式中含有 `<` 的需要在 `<` 后面加一个空格，具体原因见 Mathjax 官方文档 [html-special-characters](http://docs.mathjax.org/en/latest/input/tex/html.html#html-special-characters)。
+6. 公式中含有 `<` 的需要在 `<` 后面加一个空格，具体原因见 Mathjax 官方文档 [html-special-characters](http://docs.mathjax.org/en/latest/input/tex/html.html#html-special-characters)。
+
+7. 如果遇到公式粘贴到公众号中 `图片粘贴失败` 的提示，这个原因目前未知，不同公众号反应不一样，只能通过插入代码的方式解决问题，可参考如下视频
+
+<video style="width:100%;" controls>
+  <source src="https://imgkr.cn-bj.ufileos.com/3911b986-a98b-46cc-9383-5725179b6eca.mp4" type="video/mp4">
+</video>

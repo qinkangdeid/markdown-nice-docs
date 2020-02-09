@@ -4,6 +4,7 @@
   - [七牛云图床搭建](qiniu-image-hosting.md)
   - [公式编写注意点](formula-note.md)
   - [编辑器快捷键](hot-key.md)
+  - [欢迎试用mdnice浏览器插件beta版](beta.md)
   - 七牛云图床域名和 https 的添加
   - svg 在 markdown-nice 的使用方式
   - 如何开发自定义主题？

@@ -35,3 +35,7 @@ https://my-wechat.mdnice.com/build.zip
 2、表格样式不丢失！表格内一切正常！
 
 3、公式再也不会存在拷贝过来图片丢失的情况，切换编辑器即可看到插入成功过
+
+<video style="width:100%;" controls>
+  <source src="https://imgkr.cn-bj.ufileos.com/eb535a19-bef2-448a-a181-7b0c60c7a4dd.mov" type="video/mp4">
+</video>

@@ -22,7 +22,7 @@ https://my-wechat.mdnice.com/mdnice-1.0.2.zip
 
 刷新微信公众号后台，即可看到 mdnice 工具栏和切换编辑器按钮
 
-![](https://imgkr.cn-bj.ufileos.com/08589f16-2a7a-4991-9c41-c884c3e4a30c.png)
+![](https://imgkr.cn-bj.ufileos.com/3d2250fb-81af-4e52-bce0-7153adea84c7.png)
 
 ## 优势
 
@@ -35,5 +35,5 @@ https://my-wechat.mdnice.com/mdnice-1.0.2.zip
 3、公式再也不会存在拷贝过来图片丢失的情况，切换编辑器即可看到插入成功过
 
 <video style="width:100%;" controls>
-  <source src="https://imgkr.cn-bj.ufileos.com/eb535a19-bef2-448a-a181-7b0c60c7a4dd.mov" type="video/mp4">
+  <source src="https://imgkr.cn-bj.ufileos.com/e269a7aa-ba4b-42f9-b2bf-c15e0632400e.mov" type="video/mp4">
 </video>

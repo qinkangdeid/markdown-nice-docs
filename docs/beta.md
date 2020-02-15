@@ -2,11 +2,9 @@
 
 点击如下链接下载插件压缩包
 
-https://my-wechat.mdnice.com/build.zip
+https://my-wechat.mdnice.com/mdnice-1.0.2.zip
 
-下载后解压该压缩包，得到 build 文件夹
-
-<img width="150" src="https://imgkr.cn-bj.ufileos.com/9fb07078-a89d-4439-bd0e-f2424e4e3cf4.png" />
+下载后解压该压缩包，得到最新版插件文件夹
 
 ## 添加插件
 

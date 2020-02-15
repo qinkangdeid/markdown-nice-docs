@@ -14,11 +14,11 @@
 
 ![](https://imgkr.cn-bj.ufileos.com/804afed5-73f7-4de8-b501-4bb2b098617c.png)
 
-点击后可以以下源代码
+点击后可以看到以下源代码
 
 ![](https://imgkr.cn-bj.ufileos.com/77c1d6a3-e885-4498-824f-a915bd8466b5.png)
 
-全选并且进行复制
+**全选并且进行复制**
 
 ### 第三步：进行转换
 

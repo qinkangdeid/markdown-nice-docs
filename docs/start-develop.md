@@ -5,10 +5,11 @@
 
 ## 开发流程
 
-下载项目、安装依赖包和开始运行
+下载项目、切换目录、安装依赖包和开始运行
 
 ```shell
 $ git clone git@github.com:mdnice/markdown-nice.git
+$ cd markdown-nice
 $ yarn
 $ yarn start
 ```

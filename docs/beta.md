@@ -1,6 +1,6 @@
 ## 下载
 
-点击[本链接](https://imgkr.cn-bj.ufileos.com/614144ad-6a8c-4eb3-8e13-a934a350ae30.zip)下载 1.0.3 版本插件压缩包
+点击[本链接](https://my-wechat.mdnice.com/mdnice-1.0.3.zip)下载 1.0.3 版本插件压缩包
 
 下载后解压该压缩包，得到最新版插件文件夹
 

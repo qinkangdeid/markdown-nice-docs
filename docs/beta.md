@@ -30,4 +30,4 @@
 
 4、网页端未来将停止维护！
 
-<iframe src="//player.bilibili.com/player.html?aid=94637037&cid=161554280&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" height="500"> </iframe>
+<iframe src="//player.bilibili.com/player.html?aid=94637037&cid=161554280&page=1&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" height="500"> </iframe>

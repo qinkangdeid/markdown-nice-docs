@@ -16,7 +16,7 @@
 
 选择 build 文件夹，选择后即安装成功，可在浏览器右上角看到 mdnice 图标，刷新微信公众号后台，即可看到 mdnice 工具栏和切换编辑器按钮
 
-![](https://imgkr.cn-bj.ufileos.com/d132f235-c440-4738-9c2c-98b699c8af95.png)
+![](https://imgkr.cn-bj.ufileos.com/69521353-4a62-4ff2-8ae2-745526b7f8f8.png)
 
 ## 优势
 
@@ -25,9 +25,5 @@
 1、在微信中可直接编辑，无需切换页面，进行复制粘贴
 
 2、公式再也不会存在拷贝过来图片丢失的情况，切换编辑器即可看到插入成功过
-
-3、公式可正常滑动
-
-4、网页端未来将停止维护！
 
 <iframe src="//player.bilibili.com/player.html?aid=94637037&cid=161554280&page=1&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" height="500"> </iframe>

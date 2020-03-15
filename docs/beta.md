@@ -4,7 +4,7 @@
 
 ## 本地安装
 
-如果无法访问商店，请点击[本链接](https://my-wechat.mdnice.com/mdnice_v1_0_5.crx)下载 crx 文件
+如果无法访问商店，请点击[本链接](https://my-wechat.mdnice.com/mdnice_v1_0_6.crx)下载 crx 文件
 
 在 Chrome 浏览器中访问 chrome://extensions 链接
 
